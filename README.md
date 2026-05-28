@@ -1,7 +1,5 @@
 # Australian Election 2019 Tweets Analysis
 
-This repository contains a text mining and time-series-style social media analysis project for **OPIM 5671: Data Mining and Time Series Forecasting** at the University of Connecticut.
-
 The project analyzes more than 180,000 tweets related to the **2019 Australian Federal Election** collected from Kaggle between **May 10 and May 20, 2019**. The analysis combines classical NLP, sentiment and emotion mining, topic modeling, predictive modeling, and transformer-based evaluation.
 
 ## Project Overview
@@ -13,27 +11,6 @@ The goal of this project is to understand public discourse around the 2019 Austr
 - Which tweet features were associated with higher retweets and favorites?
 - Do emotional tweets receive more engagement than neutral tweets?
 - How do classical NLP models compare with transformer-based approaches?
-
-## Repository Structure
-
-```text
-.
-├── notebooks/
-│   └── australian_election_twitter_analysis.ipynb
-├── presentation/
-│   └── australian_election_twitter_analysis_presentation.pptx
-├── src/
-│   └── text_processing.py
-├── data/
-│   └── README.md
-├── outputs/
-│   └── figures/
-├── docs/
-│   └── project_summary.md
-├── requirements.txt
-├── .gitignore
-└── README.md
-```
 
 ## Dataset
 
@@ -152,16 +129,3 @@ jupyter notebook notebooks/australian_election_twitter_analysis.ipynb
 - Some cells may take time because the notebook processes a large tweet dataset.
 - Transformer-related cells may require more memory and are best run in Google Colab or an environment with GPU support.
 - If Kaggle authentication is required, configure your Kaggle credentials before running the dataset download step.
-
-## Course Context
-
-**Course:** OPIM 5671 — Data Mining and Time Series Forecasting  
-**Institution:** University of Connecticut  
-**Term:** Spring 2026  
-**Project Type:** Term Project #2 — Text Mining and NLP Analysis
-
-## Author
-
-Quynh Trang Le and project team  
-MS in Business Analytics and Project Management  
-University of Connecticut
