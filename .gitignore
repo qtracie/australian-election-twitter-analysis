@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files
+*.csv
+*.xlsx
+*.jsonl
+*.parquet
+*.zip
+
+# Kaggle credentials
+kaggle.json
+.kaggle/
+
+# Outputs
+outputs/figures/*.png
+outputs/figures/*.jpg
+outputs/figures/*.jpeg
+outputs/figures/*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
